@@ -10,10 +10,10 @@ function Hero() {
             </p>
 
             <div className="hero-actions">
-                <Link href="/projects" className="button primary">
+                <Link to="/projects" className="button primary">
                     View Projects
                 </Link>
-                <Link href="/contact" className="button secondary">
+                <Link to="/contact" className="button secondary">
                     Contact Me
                 </Link>
             </div>

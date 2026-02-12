@@ -44,6 +44,14 @@ function Contact() {
 
             <form onSubmit={handleSubmit}>
                 <input 
+                    type="text"
+                    name="company"
+                    style={{display:"none"}}
+                    value={form.company}
+                    onChange={handleChange}
+                />
+
+                <input 
                     name="name"
                     placeholder="Your name"
                     value={form.name}

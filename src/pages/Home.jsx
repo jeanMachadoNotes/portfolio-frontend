@@ -33,6 +33,7 @@ function Home() {
                 View All Projects →
                 </Link>
             </section>
+            
             <section>
                 <h2>Skills</h2>
 

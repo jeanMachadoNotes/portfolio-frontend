@@ -56,6 +56,7 @@ function Contact() {
                     placeholder="Your name"
                     value={form.name}
                     onChange={handleChange}
+                    maxLength={100}
                     required
                 />
 
@@ -70,11 +71,24 @@ function Contact() {
 
                 <textarea 
                     name="message" 
-                    placeholder="Your message"
+                    placeholder="Tell me a bit about your project, goals, or how I can help..."
                     value={form.message}
                     onChange={handleChange}
+                    maxLength={2000}
                     required
                 />
+                {form.message.length < 10 && (
+                    <small className="char-hint">
+                        Please include a brief description.
+                    </small>
+                )}
+            
+                <small className={
+                    form.message.length >= 10 ? "char-success visible" : "char-success"
+                }>
+                    ✓ Ready to send
+                </small>
+         
 
                 <button className="button primary">
                     Send Message

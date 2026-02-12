@@ -126,6 +126,28 @@ form textarea {
 
 form button {
   cursor: pointer;
+  margin-top: 10px;
+}
+
+.char-success {
+  display: none;
+  color: #16a34a;
+  font-size: 0.85rem;
+  margin-top: 4px;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.char-success.visible {
+  opacity: 1;
+  display: block;
+}
+
+.char-hint {
+  display: block;
+  color: #666;
+  font-size: 0.85rem;
+  margin-top: 4px;
 }
 
 /* Mobile Breakpoint */

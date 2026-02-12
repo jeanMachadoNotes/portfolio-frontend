@@ -6,9 +6,9 @@ const projects = [
         featured: true
     },
     {
-        name:"Automation Tool",
-        description: "Python automation tool for data processing.",
-        tech: ["Python"],
+        name:"Flick Facts - Movie Search",
+        description: "Find movie information fast with this film search tool",
+        tech: ["React", "Axios", "REST APIs"],
         featured: true
     },
     {

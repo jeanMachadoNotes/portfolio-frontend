@@ -1,15 +1,21 @@
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import ReactGA from "react-ga4";
 
+import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import AnalyticsTracker from "./components/AnalyticsTracker";
 
+ReactGA.initialize("G-XRG25XWWVT");
+ReactGA.send("pageview");
 
 function App() {
   return (
     <>
+      <AnalyticsTracker/>
+      
       <div>
         <Navbar />
         <div className="page">

@@ -25,9 +25,11 @@ function Home() {
             <section>
                 <h2>Featured Projects</h2>
 
-                {featureProjects.map((project, index) => (
-                    <ProjectCard key={index} project={project}/>
-                ))}
+                <div className="projects-grid">
+                    {featureProjects.map((project, index) => (
+                        <ProjectCard key={index} project={project} compact/>
+                    ))}
+                </div>
 
                 <Link to="/projects" className="button secondary">
                 View All Projects →

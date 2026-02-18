@@ -1,10 +1,13 @@
 import { Link } from "react-router-dom";
+import logo from "../assets/jm-creative-logo.png";
 
 function Navbar() {
     return (
         <nav className ="navbar">
             <div className="nav-inner">
-                <h2 className="logo">Jean Machado</h2>
+                <Link to="/" className="logo">
+                    <img src={logo} alt="JM Creative" />
+                </Link>
 
                 <div className="links">
                     <Link to="/">Home</Link> | {" "}

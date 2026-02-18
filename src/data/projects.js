@@ -23,15 +23,17 @@ const projects = [
         featured: true
     },
     {
-        name:"Flick Facts - Movie Search",
-        description: "Search and explore movie information using a clean, API-driven React interface.",
-        detail:"This project was created with React on the front end and powered by the OMDb API.",
-        tech: ["React", "Axios", "REST APIs"],
+        name: "Flick Facts - Movie Search App",
+        description: "A simple and fast movie browsing app built with React.",
+        details: "Fast Flix lets users browse popular movies, search for titles, and view basic movie details. Built with a focus on clean UI, responsiveness, and smooth navigation using real-time API data.",
+        tech: ["React", "JavaScript", "API Integration", "CSS", "Responsive Design"],
         image: fastFlixImage,
         live: "https://fast-flix-react-app.vercel.app/",
         github: "https://github.com/jeanMachadoNotes/Fast-Flix-React-App",
         featured: true
-    },
+    }
+
+
 
     // {
     //     name: "Portfolio Website",

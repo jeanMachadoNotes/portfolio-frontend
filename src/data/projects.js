@@ -14,6 +14,15 @@ const projects = [
         featured: true
     },
     {
+        name: "Elite Precision Moves — Moving Services Website",
+        description: "A custom WordPress website built for a professional moving services business.",
+        details: "This site provides visitors with clear information about local and long-distance moving services, company values, veteran-led leadership, and an easy way to request quotes or schedule a move.",
+        tech: ["Wordpress", "HTML", "CSS", "Responsive Design", "Form Integration"],
+        image: elitePrecisionImage,
+        live: "http://eliteprecisionmoves.com/",
+        featured: true
+    },
+    {
         name:"Flick Facts - Movie Search",
         description: "Search and explore movie information using a clean, API-driven React interface.",
         detail:"This project was created with React on the front end and powered by the OMDb API.",
@@ -23,15 +32,6 @@ const projects = [
         github: "https://github.com/jeanMachadoNotes/Fast-Flix-React-App",
         featured: true
     },
-    {
-        name: "Elite Precision Moves — Moving Services Website",
-        description: "A custom WordPress website built for a professional moving services business.",
-        details: "This site provides visitors with clear information about local and long-distance moving services, company values, veteran-led leadership, and an easy way to request quotes or schedule a move.",
-        tech: ["Wordpress", "HTML", "CSS", "Responsive Design", "Form Integration"],
-        image: elitePrecisionImage,
-        live: "http://eliteprecisionmoves.com/",
-        featured: true
-    }
 
     // {
     //     name: "Portfolio Website",

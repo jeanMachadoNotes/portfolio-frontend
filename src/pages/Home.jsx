@@ -17,7 +17,7 @@ function Home() {
             <Hero />
             
             <section>
-                <h2>About Me</h2>
+                <h2>Hi, I'm Jean</h2>
 
                 <p>I'm a developer focused on building fast, maintanable web applications with modern tools.</p>
             </section>

@@ -7,6 +7,7 @@ import Services from "./pages/Services";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import AnalyticsTracker from "./components/AnalyticsTracker";
+import Footer from "./components/Footer";
 
 ReactGA.initialize("G-XRG25XWWVT");
 ReactGA.send("pageview");
@@ -26,6 +27,7 @@ function App() {
             <Route path="/contact" element={<Contact />}/>
           </Routes>
         </div>
+        <Footer />
       </div>
     </>
   );

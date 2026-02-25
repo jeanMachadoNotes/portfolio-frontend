@@ -42,7 +42,8 @@ function Home() {
                 <div className="skills-grid">
                     <SkillGroup title="Frontend" items={skills.frontend} />
                     <SkillGroup title="Backend" items={skills.backend} />
-                    <SkillGroup title="Tools" items={skills.tools} />
+                    <SkillGroup title="AI" items={skills.ai_engineering} />
+                    <SkillGroup title="Tools" items={skills.deployment_devops} />
                 </div>
             </section>
         </>

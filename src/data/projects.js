@@ -5,9 +5,9 @@ import elitePrecisionImage from "../assets/projects/elite-precision-moves.jpeg";
 const projects = [
      {
         name:"Brazilian Jiu-Jitsu Knowledge Assistant",
-        description: "A web-based assistant that answers Brazilian Jiu-Jitsu questions using retrieval-augmented generation (RAG).",
-        details: "Allows users to ask technique and training questions and receive grounded repsonses based on curated BJJ knowledge source.",
-        tech: ["React","FastAPI","OpenAI Embeddings","Cosine Similarity","Rate Limiting"],
+        description: "An agent-orchestrated Retrieval-Augmented Generation (RAG) system for Brazilian Jiu-Jitsu.",
+        details: "Users can ask technique and training questions. A LangChain tool-calling agent dynamically queries a Chroma vector database and generates strictly grounded responses from curated BJJ source material.",
+        tech: ["React","FastAPI","LangChain Agents","ChromaDB","OpenAI Embeddings","Rate Limiting"],
         image: bjjImage,
         live: "https://rag-bjj-assistant.vercel.app",
         github: "https://github.com/jeanMachadoNotes/rag-bjj-assistant",

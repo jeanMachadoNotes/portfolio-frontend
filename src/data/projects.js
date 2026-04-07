@@ -1,6 +1,7 @@
-import bjjImage from "../assets/projects/bjj-assistant.jpeg";
+import bjjImage from "../assets/projects/brazilian-jiu-jitsu-assistant.png";
 import fastFlixImage from "../assets/projects/fast-flix.jpeg";
 import elitePrecisionImage from "../assets/projects/elite-precision-moves.jpeg";
+import johnMachadoJiuJitsu from "../assets/projects/john-machado-bjj-academy.png";
 
 const projects = [
      {
@@ -14,12 +15,12 @@ const projects = [
         featured: true
     },
     {
-        name: "Elite Precision Moves — Moving Services Website",
-        description: "A custom WordPress website built for a professional moving services business.",
-        details: "This site provides visitors with clear information about local and long-distance moving services, company values, veteran-led leadership, and an easy way to request quotes or schedule a move.",
-        tech: ["Wordpress", "HTML", "CSS", "Responsive Design", "Form Integration"],
-        image: elitePrecisionImage,
-        live: "http://eliteprecisionmoves.com/",
+        name: "John Machado Brazilian Jiu-Jitsu Academy",
+        description: "A complete WordPress redesign for a renowned Brazilian Jiu-Jitsu academy.",
+        details: "Transformed an outdated, non-mobile-friendly site into a modern, responsive platform. Showcases class schedules, instructor credentials, and training philosophy with improved navigation, mobile optimization, and SEO to better connect prospective students with world-class BJJ instruction.",
+        tech: ["Wordpress", "HTML", "CSS", "UI/UX", "Responsive Design", "SEO"],
+        image: johnMachadoJiuJitsu,
+        live: "https://johnmachadobjj.com/",
         featured: true
     },
     {
@@ -30,6 +31,15 @@ const projects = [
         image: fastFlixImage,
         live: "https://fast-flix-react-app.vercel.app/",
         github: "https://github.com/jeanMachadoNotes/Fast-Flix-React-App",
+        featured: true
+    },
+    {
+        name: "Elite Precision Moves — Moving Services Website",
+        description: "A custom WordPress website built for a professional moving services business.",
+        details: "This site provides visitors with clear information about local and long-distance moving services, company values, veteran-led leadership, and an easy way to request quotes or schedule a move.",
+        tech: ["Wordpress", "HTML", "CSS", "Responsive Design", "Form Integration"],
+        image: elitePrecisionImage,
+        live: "http://eliteprecisionmoves.com/",
         featured: true
     }
 
